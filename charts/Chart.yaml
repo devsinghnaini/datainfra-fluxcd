@@ -1,0 +1,11 @@
+annotations:
+  artifacthub.io/changes: |
+    - "[Feature]: Add support for running flux service accounts without cluster-admin privileges"
+apiVersion: v2
+appVersion: 0.33.0
+description: Helm charts for flux2
+name: datainfra-fluxcd
+sources:
+  - https://github.com/fluxcd-community/helm-charts
+type: application
+version: 1.4.0

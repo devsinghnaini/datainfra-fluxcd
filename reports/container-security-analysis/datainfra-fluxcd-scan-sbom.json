@@ -1,0 +1,5 @@
+NAME                               INSTALLED  FIXED-IN  TYPE       VULNERABILITY        SEVERITY 
+github.com/fluxcd/helm-controller  (devel)              go-module  CVE-2022-36049       High      
+github.com/fluxcd/helm-controller  (devel)    0.23.0    go-module  GHSA-p2g7-xwvr-rrw3  High      
+google.golang.org/protobuf         v1.28.1              go-module  CVE-2015-5237        High      
+google.golang.org/protobuf         v1.28.1              go-module  CVE-2021-22570       Medium    

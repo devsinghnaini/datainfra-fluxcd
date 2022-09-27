@@ -1,0 +1,31 @@
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Controls: 44 (Failed: 17, Excluded: 0, Skipped: 0)
+Failed Resources by Severity: Critical — 0, High — 33, Medium — 40, Low — 23
+
++----------+----------------------------------------+------------------+--------------------+---------------+--------------+
+| SEVERITY |              CONTROL NAME              | FAILED RESOURCES | EXCLUDED RESOURCES | ALL RESOURCES | % RISK-SCORE |
++----------+----------------------------------------+------------------+--------------------+---------------+--------------+
+| High     | List Kubernetes secrets                |        12        |         0          |      12       |     100%     |
+| High     | Resource limits                        |        7         |         0          |      11       |     64%      |
+| High     | Resources CPU limit and request        |        7         |         0          |      11       |     64%      |
+| High     | Resources memory limit and request     |        7         |         0          |      11       |     64%      |
+| Medium   | Access container service account       |        4         |         0          |       4       |     100%     |
+| Medium   | Allow privilege escalation             |        1         |         0          |      11       |      9%      |
+| Medium   | Automatic mapping of service account   |        8         |         0          |      22       |     36%      |
+| Medium   | CVE-2022-0492-cgroups-container-escape |        1         |         0          |      11       |      9%      |
+| Medium   | Configured liveness probe              |        1         |         0          |      11       |      9%      |
+| Medium   | CoreDNS poisoning                      |        12        |         0          |      12       |     100%     |
+| Medium   | Images from allowed registry           |        11        |         0          |      11       |     100%     |
+| Medium   | Linux hardening                        |        1         |         0          |      11       |      9%      |
+| Medium   | Non-root containers                    |        1         |         0          |      11       |      9%      |
+| Low      | Configured readiness probe             |        1         |         0          |      11       |      9%      |
+| Low      | Immutable container filesystem         |        1         |         0          |      11       |      9%      |
+| Low      | K8s common labels usage                |        10        |         0          |      11       |     91%      |
+| Low      | Label usage for resources              |        11        |         0          |      11       |     100%     |
++----------+----------------------------------------+------------------+--------------------+---------------+--------------+
+|          |            RESOURCE SUMMARY            |        27        |         0          |      43       |    19.53%    |
++----------+----------------------------------------+------------------+--------------------+---------------+--------------+
+FRAMEWORKS: AllControls (risk: 19.53), MITRE (risk: 18.64), DevOpsBest (risk: 35.70), NSA (risk: 9.89), ArmoBest (risk: 10.80)
+
